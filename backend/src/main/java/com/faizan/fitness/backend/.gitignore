@@ -1,0 +1,34 @@
+# Ignore build output
+/target/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore class files
+*.class
+
+# Ignore Maven wrapper files (if not used)
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore environment or secret config
+.env
+*.env
+
+# Ignore application secrets (if you ever create them)
+application-local.properties
+
+# Ignore backups or temp files
+*.bak
+*.tmp
+
+# Ignore VS Code settings (if used)
+.vscode/
